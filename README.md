@@ -4,9 +4,11 @@
 This project focuses on classifying knee X-ray images into “Normal” and “Osteoporosis” categories using state-of-the-art transfer learning models and the Segment Anything Model (SAM) for region-of-interest (ROI) extraction.
 By combining DenseNet201, VGG19, and ResNet50 architectures with SAM-based segmentation, the study evaluates classification performance under three scenarios:
 
-**1.Combined Dataset** – Large dataset from multiple sources.
-**2.Sampled Dataset** – Small dataset without segmentation.
-**3.ROI Dataset** – SAM-segmented images to enhance feature localization.
+**1.Combined Dataset** – Large dataset from multiple sources.  
+
+**2.Sampled Dataset** – Small dataset without segmentation.  
+
+**3.ROI Dataset** – SAM-segmented images to enhance feature localization.  
 
 The results highlight that ROI extraction significantly improves accuracy in small datasets, with DenseNet201 achieving up to **93% accuracy** on the combined dataset and VGG19 achieving **78% accuracy** on ROI-based datasets.
 
@@ -65,7 +67,8 @@ git clone https://github.com/Akshidha-Unni/Osteoporosis-Image-Classification-usi
 cd Osteoporosis-Image-Classification-using-SAM-and-Transfer-Learning
 ```
 
-2️⃣Run SAM.ipynb to extract ROI.
+2️⃣Run SAM.ipynb to extract ROI.  
+
 3️⃣Run Osteoporosis.ipynb for image Classification.
 
 ## ⚠️ Limitations
