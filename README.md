@@ -54,7 +54,8 @@ We used three publicly available datasets:
 | ----------------- | ----------- | -------- | ------ |
 | Combined Dataset  | DenseNet201 | **93%**  | 60     |
 | Sampled Dataset   | DenseNet201 | 54%      | 10     |
-| ROI Dataset (SAM) | VGG19       | **78%**  | 10     |
+| ROI Dataset (SAM) | VGG19       | **78%**  | 10     |  
+
 **Key Findings:**
 - Large datasets with transfer learning yield the best performance.
 - SAM-based ROI extraction improves classification accuracy on small datasets.
